@@ -1,0 +1,12 @@
+[package]
+name = "cfile"
+version = "0.1.0"
+authors = ["Chen Weiguang <chen.weiguang@gmail.com>"]
+
+[lib]
+name = "cfile"
+path = "src/cfile/lib.rs"
+crate-type = [ "staticlib", "dylib" ]
+
+[dependencies]
+file = "=1.1.1"
